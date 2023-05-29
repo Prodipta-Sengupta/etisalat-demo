@@ -11,7 +11,7 @@ public interface UserService {
 
 	public User getUserByEmail(String email);
 
-	public User createUser(User user);
+	public User createOrUpdateUser(User user);
 
 	public User updateUserByName(User user);
 
